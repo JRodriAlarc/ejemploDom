@@ -6,10 +6,7 @@ const botonIncrementar = document.querySelector("button");
 let contador = 0;
 
 // Función para actualizar el contador y mostrarlo en la página
-function actualizarContador() {
-  contador++;
-  contadorElemento.textContent = contador;
-}
+
 
 // Agregar un event listener al botón para que llame a la función cuando se hace clic
 botonIncrementar.addEventListener("click", actualizarContador);
