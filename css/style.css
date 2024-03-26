@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 100vw;
+
+    & #contador {
+        font-size: 2em;
+        margin-bottom: 2em;
+    }
+    
+    & #botonIncrementar {
+        padding: 1em;
+        font-size: 1.3em;
+        border: none;
+        border-radius: 2em;
+        background-color: cornflowerblue;
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+}
